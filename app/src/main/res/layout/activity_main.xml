@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:onClick="tv_read"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/main04"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="通道门管理"/>
+
+        <TextView
+            android:onClick="tv_baby"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/main06"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="婴儿防盗"/>
+
+        <TextView
+            android:onClick="tv_find"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/main10"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="天线设置"
+            />
+
+        <TextView
+            android:onClick="tv_set"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/main08"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="信息修改"/>
+    </LinearLayout>
+
+</LinearLayout>
